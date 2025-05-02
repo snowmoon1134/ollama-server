@@ -1,0 +1,1 @@
+deepseek-r1:1.5b-qwen-distill-q4_K_M
