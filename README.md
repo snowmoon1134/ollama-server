@@ -25,3 +25,11 @@ NVIDIA Container Toolkitを事前導入した上で、--gpusオプションを�
 ```
 docker run --rm -it -p 8080:8080 --gpus=all ollama-server
 ```
+
+## 別のマシンから接続するには
+
+以下の2つの環境変数を設定する
+```
+OLLAMA_HOST=0.0.0.0
+OLLAMA_ORIGINS=192.168.0.* # 環境に合わせて変えてください
+```
